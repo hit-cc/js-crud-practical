@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript CURD</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/product.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="javascript:void(0)">JS CRUD</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html"
+              >Home <span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./product.html"
+              >Product <span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./category.html"
+              >Category <span class="sr-only"></span
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <table class="table" id="product-table">
+            <h2 class="text-center">Product Table</h2>
+            <thead id="theader">
+              <!-- <tr id="theader_tr">
+                <th scope="col" id="image">Image</th>
+                <th scope="col" id="title">Title</th>
+                <th scope="col" id="category">Category</th>
+                <th scope="col" id="price">Price</th>
+                <th scope="col" id="description">Description</th>
+                <th scope="col" id="action">Action</th>
+              </tr> -->
+            </thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
